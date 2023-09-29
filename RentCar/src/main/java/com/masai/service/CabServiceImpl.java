@@ -1,0 +1,79 @@
+package com.masai.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.masai.entity.Cab;
+import com.masai.entity.Driver;
+import com.masai.exception.DataNotFoundException;
+import com.masai.repository.CabRepository;
+import com.masai.repository.DriverRepository;
+
+import net.bytebuddy.dynamic.DynamicType.Builder.FieldDefinition.Optional;
+
+@Service("CabService")
+public class CabServiceImpl implements CabService {
+
+	@Autowired
+	private CabRepository cabRepository;
+	
+
+	@Autowired
+	private DriverRepository driverRepository;
+
+
+
+
+	@Override
+	public Cab updateCab(Integer id,String type, Integer rate) throws DataNotFoundException {
+		// TODO Auto-generated method stub
+		java.util.Optional<Cab> opt = cabRepository.findById(id);
+	
+		  if(opt.isPresent())
+		  {
+			  Cab fCab=opt.get();
+				fCab.setCarType(type);
+				fCab.setRatePerKm(rate);
+				Driver fDriver= fCab.getDriver();
+				fDriver.setCab(fCab);;
+				driverRepository.save(fDriver);
+				return driverRepository.save(fCab);
+			  
+			  
+			  /*
+			  //Driver driver = dDao.getDriverByCabId(cab.getCabId());
+		
+			  Cab cab1 = opt.get();
+			  Driver cabDriver=cab1.getDriver();
+			  cabDriver.setCab(cab1);
+			  dDao.save(cabDriver);
+			 return cDao.save(cab1);*/
+			  
+			  
+		  }else
+		  {
+			  throw new DataNotFoundException("Cab Not Found");
+		  }
+
+	}
+
+	
+
+	@Override
+	public List<String> viewCabsOfType() throws DataNotFoundException {
+		// TODO Auto-generated method stub
+		List<String> cabs = cabRepository.viewCarType();
+		return cabs;
+	}
+
+	@Override
+	public int countCabsOfType() throws DataNotFoundException {
+		// TODO Auto-generated method stub
+		List<Cab> listcab = cabRepository.findAll();
+		return listcab.size();
+	}
+	
+	
+}
