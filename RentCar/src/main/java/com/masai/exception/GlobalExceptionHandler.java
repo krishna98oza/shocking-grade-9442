@@ -25,8 +25,8 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<MyErrorDetails>(err, HttpStatus.BAD_REQUEST);
 	}
 
-	@ExceptionHandler(AdminException.class)
-	public ResponseEntity<MyErrorDetails> myExpHandler4(AdminException ae, WebRequest wr) {
+	@ExceptionHandler(AdminExceptions.class)
+	public ResponseEntity<MyErrorDetails> myExpHandler4(AdminExceptions ae, WebRequest wr) {
 		MyErrorDetails err = new MyErrorDetails(LocalDateTime.now(), ae.getMessage(), wr.getDescription(false));
 		return new ResponseEntity<MyErrorDetails>(err, HttpStatus.CONFLICT);
 	}

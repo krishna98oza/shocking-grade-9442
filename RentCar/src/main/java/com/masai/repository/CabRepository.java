@@ -10,6 +10,8 @@ import com.masai.entity.Cab;
 
 @Repository
 public interface CabRepository extends JpaRepository<Cab, Integer>{
+
+	List<String> viewCarType();
 	
 	@Query("select distinct carType from Cab")
 	public List<String> viewCarType();

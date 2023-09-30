@@ -12,15 +12,15 @@ import com.masai.entity.TripBooking;
 @Repository
 public interface TripRepository extends JpaRepository<TripBooking, Integer>{
 
-	@Query("from TripBooking order by CustomerId")
-	public List<TripBooking> findByCustomeridAsce();
-	@Query("from TripBooking  order by fromdate_time")
-	public List<TripBooking> findByFromdate_timeAsce();
-	
-	@Query("from TripBooking where CustomerId=:customerId AND Fromdate_time=:date")
-	public List<TripBooking> findByCustomerIdAndFromdate_time(Integer customerId, LocalDate date);
-	
-	@Query("from TripBooking Group by driver_id ORDER by driver_id")
-	public List<TripBooking> findByDriverAscs();
+@Query("from TripBooking order by CustomerId")
+public List<TripBooking> findByCustomeridAsce();
+@Query("from TripBooking  order by fromdate_time")
+public List<TripBooking> findByFromdate_timeAsce();
+
+@Query("from TripBooking where CustomerId=:customerId AND Fromdate_time=:date")
+public List<TripBooking> findByCustomerIdAndFromdate_time(Integer customerId, LocalDate date);
+
+@Query("from TripBooking Group by driver_id ORDER by driver_id")
+public List<TripBooking> findByDriverAscs();
 
 }
