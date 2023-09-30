@@ -8,8 +8,8 @@ import com.masai.entity.Customer;
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Integer>{
 
-	Integer getUserId();
-
-	Object getPassword();
+//	Integer getUserId();
+//
+//	Object getPassword();
 
 }
