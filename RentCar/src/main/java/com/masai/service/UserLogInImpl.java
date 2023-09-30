@@ -11,7 +11,7 @@ import com.masai.entity.CurrentUserSession;
 import com.masai.entity.Customer;
 import com.masai.entity.CustomerDTO;
 import com.masai.entity.Driver;
-import com.masai.exception.AdminException;
+import com.masai.exception.AdminExceptions;
 import com.masai.exception.DataNotFoundException;
 import com.masai.exception.InvalidPasswordException;
 import com.masai.exception.UserAlreadyExistWithUserIdException;
@@ -46,7 +46,7 @@ public class UserLogInImpl implements UserLogIn {
 		Optional<CurrentUserSession> currentUserOptional = sessionRepository.findById(userId);
 
 		if (!opt_customer.isPresent()) {
-			throw new AdminException("user not found");
+			throw new AdminExceptions("user not found");
 		}
 		if (currentUserOptional.isPresent()) {
 			throw new UserAlreadyExistWithUserIdException("User already logged in with this number");
