@@ -1,6 +1,8 @@
 # RentCar
 
-![Rentkar logo](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/f878bfde-8480-465a-9b68-a58485991fa2)
+<div align="center">
+  <img src="https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/f878bfde-8480-465a-9b68-a58485991fa2" alt="Rentkar Logo">
+</div>
 
 
 # REST API for Online Cab Booking Application
