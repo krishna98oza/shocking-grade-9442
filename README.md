@@ -27,19 +27,19 @@
 
 ## Modules:
 
-  * Login Module
-	* Admin Module
-	* Customer Module
-	* Driver Management Module
-	* Cab Management Module
-	* Booking Management Module
+* Login Module
+* Admin Module
+* Customer Module
+* Driver Management Module
+* Cab Management Module
+* Booking Management Module
 
 ## Contributors:
 
-  * Krishna Oza
-  * Umesh Kumar Gupta(https://github.com/Umesh8878)
-  * Navneet Shrivastava
-  * Rajvardhan
+* Krishna Oza
+* Umesh Kumar Gupta(https://github.com/Umesh8878)
+* Navneet Shrivastava
+* Rajvardhan
 
 ## Installation & Run
 
@@ -57,7 +57,7 @@ spring.datasource.password=root
 ```
 
 ## Swagger Deployed link
-http://localhost:1995/swagger-ui/index.html#/
+http://localhost:8080/swagger-ui/index.html#/
 
 ### Sample API Response for User Login
 
