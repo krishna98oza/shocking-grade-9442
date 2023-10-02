@@ -6,9 +6,9 @@
 
 * Customer should be able to view the list of available cabs.
 
-* Customer should be able to book cab for desired location from a certain location. 
+* Customer should be able to book a cab for the desired location from a specific site. 
 
-* Admin should be able to perform below operations:
+* Admin should be able to perform the below operations:
 
       1. Cab Management 
       2. Driver Management
@@ -34,7 +34,7 @@
 	* Cab Management Module
 	* Booking Management Module
 
-## Contributers:
+## Contributors:
 
   * Krishna Oza
 	* Umesh Kumar Gupta(https://github.com/Umesh8878)
@@ -51,7 +51,7 @@
 ```
     server.port=8080
 
-spring.datasource.url=jdbc:mysql://localhost:3306/online_cab
+spring.datasource.url=jdbc:mysql://localhost:3306/rentcar
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.username=root
 spring.datasource.password=root
