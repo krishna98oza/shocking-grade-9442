@@ -90,7 +90,7 @@ http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
-![db](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/4881f072-6c14-4caf-a81b-ed2d6b4ad40f)
+![db](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/d2a43f79-69c5-4fae-aa2e-d4a0880d4662)
 
 
 ---
