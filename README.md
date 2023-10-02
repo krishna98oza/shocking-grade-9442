@@ -1,8 +1,16 @@
-# shocking-grade-9442
+# RentCar
+
+![Rentkar logo](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/f878bfde-8480-465a-9b68-a58485991fa2)
+
 
 # REST API for Online Cab Booking Application
 
-* To Create an Application for Online Cab Booking 
+* We have created a REST API for an online cab booking application that can be used by 
+  customers to login into their profile, update their information and book cabs, by a driver 
+  to log in and update their details along with their cab details and accept a ride from the 
+  customer. All this is overlooked by the admin who can also login and update their 
+  information as well as access the data in the application. We have implemented data and 
+  user validation at every step, for every user. 
 
 * Customer should be able to view the list of available cabs.
 
