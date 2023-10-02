@@ -112,7 +112,6 @@ public class CabServiceImpl implements CabService{
 		Optional<CurrentUserSession> validuser = currRepo.findByUuidAndRole(uuid);
 		if(validuser.isPresent()) {
 			List<Cab> allCabs = cabRepo.findAll();
-			List<Cab> viewCabsOfType = new ArrayList<>();
 			Integer countCabsOfType = 0;
 
 			for(Cab cab : allCabs) {
@@ -120,7 +119,7 @@ public class CabServiceImpl implements CabService{
 					countCabsOfType++;
 				}
 			}
-			if(viewCabsOfType.isEmpty()) {
+			if(countCabsOfType == 0) {
 				throw new CabException("No Cab found with the given type");
 			}
 			else {
