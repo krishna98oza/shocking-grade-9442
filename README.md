@@ -36,10 +36,10 @@
 
 ## Contributors:
 
-* Krishna Shrinivas Oza(https://github.com/krishna98oza)
-* Umesh Kumar Gupta(https://github.com/Umesh8878)
-* Navneet Srivastava(https://github.com/Navneet3009)
-* Rajvardhan Naik(https://github.com/shisui53)
+* [Krishna Shrinivas Oza](https://github.com/krishna98oza)
+* [Umesh Kumar Gupta](https://github.com/Umesh8878)
+* [Navneet Srivastava](https://github.com/Navneet3009)
+* [Rajvardhan Naik](https://github.com/shisui53)
 
 ## Installation & Run
 
