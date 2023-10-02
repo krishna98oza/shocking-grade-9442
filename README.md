@@ -37,11 +37,9 @@
 ## Contributors:
 
   * Krishna Oza
-	* Umesh Kumar Gupta(https://github.com/Umesh8878)
-	* Navneet Shrivastava
-	* Rajvardhan
-	* Cab Management Module
-	* Booking Management Module
+  * Umesh Kumar Gupta(https://github.com/Umesh8878)
+  * Navneet Shrivastava
+  * Rajvardhan
 
 ## Installation & Run
 
