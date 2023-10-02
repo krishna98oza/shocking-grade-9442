@@ -90,7 +90,8 @@ http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
-<img src="https://user-images.githubusercontent.com/101389007/232260859-f6df5574-20dd-45ba-b343-0ae18a1fac96.png">
+![db](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/4881f072-6c14-4caf-a81b-ed2d6b4ad40f)
+
 
 ---
 
@@ -98,7 +99,7 @@ http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
-<img src="https://user-images.githubusercontent.com/101389007/232260920-4d916958-50dd-4410-828e-427a4348ea70.png">
+![login_controller](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/100d05ef-dbd3-47dd-b0fb-fb8cfbffe6c0)
 
 ---
 
@@ -106,7 +107,8 @@ http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
-<img src="https://user-images.githubusercontent.com/101389007/232260962-0a4a970d-4e1f-4487-8de1-199212405115.png">
+![admin_controller](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/9ebb60d0-5e38-4845-85d5-10ece8a69aef)
+
 
 ---
 
@@ -114,7 +116,8 @@ http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
-<img src="https://user-images.githubusercontent.com/101389007/232261022-1fcf7b10-854f-4f4b-b833-6f14eace4b8f.png">
+![customer_controller](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/69a993c3-0f22-4213-80f7-9e1ac3136096)
+
 
 ---
 
@@ -122,7 +125,8 @@ http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
-<img src="https://user-images.githubusercontent.com/101389007/232261089-d8fd340c-9e7c-4d86-a746-a53c62d6ed2b.png">
+![driver-controller](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/831214f4-e97d-47db-9109-eb7d201f2d75)
+
 
 ---
 
@@ -130,7 +134,8 @@ http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
-<img src="https://user-images.githubusercontent.com/101389007/232261140-f4bb904e-e033-4798-a356-9dfd30c8a3fa.png">
+![cab_controller](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/17fe5844-4e18-43e6-a49a-c543c82796d3)
+
 
 ---
 
@@ -138,7 +143,8 @@ http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
-<img src="https://user-images.githubusercontent.com/101389007/232261155-0c9521b4-6998-484c-9e31-270705c3b70d.png">
+![trip-controller](https://github.com/krishna98oza/shocking-grade-9442/assets/115473268/5c8f0a4a-f34e-41d2-bd4f-e6e450ecd103)
+
 
 ---
 
